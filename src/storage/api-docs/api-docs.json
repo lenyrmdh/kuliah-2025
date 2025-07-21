@@ -1,0 +1,36 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API PT. DigitalEdu",
+        "description": "Dokumentasi API untuk Sistem Informasi Pegawai PT. DigitalEdu",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "https://pemweb.test",
+            "description": "Server Utama"
+        }
+    ],
+    "paths": {
+        "/api/data-pegawais": {
+            "get": {
+                "tags": [
+                    "Data Pegawai"
+                ],
+                "summary": "Ambil daftar pegawai",
+                "operationId": "1b1fd714b4d6a8ab99fc393d0bdc5bf0",
+                "responses": {
+                    "200": {
+                        "description": "Berhasil ambil data pegawai"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Data Pegawai",
+            "description": "Data Pegawai"
+        }
+    ]
+}
